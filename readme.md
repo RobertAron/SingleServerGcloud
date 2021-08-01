@@ -7,7 +7,7 @@ Terraform module. Basically I'm using this as a shortcut to create gcloud apps w
 
 ```hcl
 module "auto-single-lb" {
-  source = "git::github.com/RobertAron/SingleServerGcloud?ref=v0.1"
+  source = "git::github.com/RobertAron/SingleServerGcloud?ref=v0.2"
   image  = "gcr.io/lightbikenode/light-bike"
   domain = "light.bike.robertaron.io"
 }
