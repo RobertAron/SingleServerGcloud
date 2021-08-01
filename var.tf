@@ -25,3 +25,9 @@ variable "domain" {
     type = string
     description = "Domain which will be registered on the ssl cert"
 }
+
+variable "allow_stopping" {
+  type = bool
+  description = "allow stopping the computer when making updates"
+  default = false
+}

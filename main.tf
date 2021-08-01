@@ -8,6 +8,7 @@ resource "google_compute_instance" "server_instance" {
   }
   machine_type = var.machine_type
   zone         = "us-central1-a"
+  allow_stopping_for_update = var.allow_stopping
 
   network_interface {
     network = "default"
