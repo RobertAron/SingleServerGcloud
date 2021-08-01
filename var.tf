@@ -1,7 +1,7 @@
 variable "machine_type" {
     type = string
     description = "describe your variable type"
-    default = "E2-micro"
+    default = "e2-micro"
 }
 
 variable "name" {
